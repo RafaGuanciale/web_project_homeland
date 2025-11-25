@@ -70,7 +70,7 @@ Página completa - 1280px
 ![page](./images/1280.jpg)
 
 Página completa - 768px
-![page](./images/768.png)
+![page](./images/768.JPG)
 
 Página completa - 320px
-![page](./images/320.png)
+![page](./images/320.JPG)
