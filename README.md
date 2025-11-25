@@ -1,6 +1,6 @@
 # De Pátria para Pátria — Web Development
 
-**Visualizar projeto:** https://rafaelguanciale.github.io/de-patria-para-patria/
+**Visualizar projeto:** https://rafaguanciale.github.io/web_project_homeland/
 
 O projeto De Pátria para Pátria foi desenvolvido como parte da Sprint 5 do curso de Web Development da TripleTen.
 Esta sprint marca uma evolução importante porque é onde a responsividade finalmente se torna o foco principal, e o desenvolvimento começa a se aproximar de projetos reais:
