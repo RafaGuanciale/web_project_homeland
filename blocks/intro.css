@@ -1,4 +1,4 @@
-.location{
+.intro{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -6,7 +6,7 @@
   max-width: 830px;
 }
 
-.location__title{
+.intro__title{
   font-size: 54px;
   line-height: 58px;
   font-weight: bold;
@@ -15,7 +15,7 @@
   margin: 0 0 40px;
 }
 
-.location__subtitle{
+.intro__subtitle{
   font-weight: normal;
   font-size: 24px;
   line-height: 34px;
@@ -24,7 +24,7 @@
   text-align: left;
 }
 
-.location__subtitle-author{
+.intro__subtitle-author{
   font-weight: normal;
   font-size: 24px;
   line-height: 34px;
@@ -33,7 +33,7 @@
   text-align: right;
 }
 
-.location__text{
+.intro__text{
   font-weight: normal;
   font-size: 16px;
   line-height: 163%;
@@ -44,53 +44,53 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .location {
+  .intro {
     padding: 0;
     margin:0 24px;
     max-width: 830px;
   }
 
-  .location__title {
+  .intro__title {
     font-size: 45px;
     line-height: 49px;
     max-width: 707px;
     margin: 0 0 50px;
   }
 
-  .location__subtitle {
+  .intro__subtitle {
     margin: 0;
     max-width: 720px;
   }
 
-  .location__subtitle-author {
+  .intro__subtitle-author {
     margin-top: -8px;
     max-width: 720px;
   }
 
-  .location__text {
+  .intro__text {
     max-width: 720px;
   }
 }
 
 
 @media screen and (max-width: 544px) {
-  .location {
+  .intro {
     margin:0 16px;
   }
 
-  .location__title {
+  .intro__title {
     font-size: 32px;
     line-height: 35px;
     margin: 0 0 40px;
   }
 
-  .location__subtitle {
+  .intro__subtitle {
     font-size: 24px;
     line-height: 30px;
     margin: 0;
   }
 
-  .location__subtitle-author {
+  .intro__subtitle-author {
     margin-top: 10px;
   }
 }

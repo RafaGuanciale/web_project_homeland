@@ -1,4 +1,4 @@
-.footer__text{
+.footer__copyright{
   text-align: center;
   font-size: 14px;
   line-height: 16px;
@@ -7,14 +7,14 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .footer__text{
+  .footer__copyright{
     padding: 88px 0 24px;
   }
 }
 
 
 @media screen and (max-width: 544px) {
-  .footer__text{
+  .footer__copyright{
     line-height: 14px;
     padding: 64px 0 24px;
   }

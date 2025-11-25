@@ -1,4 +1,4 @@
-.patria {
+.lead {
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.patria__title {
+.lead__title {
   font-size: 96px;
   line-height: 100px;
   font-weight: bold;
@@ -15,7 +15,7 @@
   text-align: center;
 }
 
-.patria__subtitle {
+.lead__subtitle {
   font-weight: normal;
   font-size: 30px;
   line-height: 36px;
@@ -24,43 +24,43 @@
   text-align: center;
 }
 
-.patria__image {
+.lead__image {
   width: 100%;
   max-width: 984px;
   max-height: 615px;
 }
 
 @media screen and (max-width: 1024px) {
-  .patria__title {
+  .lead__title {
     font-size: 75px;
     line-height: 79px;
     margin: 0 0 25px;
   }
-  .patria__subtitle {
+  .lead__subtitle {
     font-size: 30px;
     line-height: 36px;
     margin: 0 0 30px;
   }
 
-  .patria__image {
+  .lead__image {
     width: 100%;
     margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 544px) {
-  .patria__title {
+  .lead__title {
     font-size: 40px;
     line-height: 44px;
     margin: 0 46px 16px;
   }
-  .patria__subtitle {
+  .lead__subtitle {
     font-size: 16px;
     line-height: 20px;
     margin: 0 16px 40px;
   }
 
-  .patria__image {
+  .lead__image {
     width: 100%;
     margin: 0 auto;
   }

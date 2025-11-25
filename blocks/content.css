@@ -1,4 +1,4 @@
-.main{
+.content{
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -6,13 +6,13 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .main{
+  .content{
     gap: 90px;
   }
 }
 
 @media screen and (max-width: 544px) {
-  .main{
+  .content{
     gap: 64px;
   }
 }
