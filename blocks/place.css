@@ -1,0 +1,128 @@
+.place__box {
+  display: grid;
+  max-width: 984px;
+  max-height: 832px;
+  margin: auto;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: 1fr 460px 1fr;
+  grid-template-areas:
+  "title artist"
+  "image texts"
+  "button texts";
+  column-gap: 40px;
+  row-gap: 48px;
+}
+
+.place__box-berea{
+  max-height: 680px;
+}
+
+.place__box-muramvya{
+  max-height: 830px;
+}
+
+.place__box-saopaulo{
+  max-height: 753px;
+}
+
+
+.place__title {
+  grid-area: title;
+  margin: 0;
+  max-width: 460px;
+  max-height: 228px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+}
+
+.place__title-criccieth{
+  max-width: 440px;
+}
+
+.place__website {
+  grid-area: artist;
+  margin: 0;
+  max-width: 456px;
+  max-height: 67px;
+  margin-top: auto;
+  align-self: flex-end;
+}
+
+.place__url-heading {
+  margin: 0;
+  padding-bottom: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 12%;
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
+
+.place__artist {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+
+.place__image {
+  grid-area: image;
+  width: 100%;
+  max-width: 460px;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  box-shadow: 10px 10px 25px 0px #00000080;
+}
+
+.place__paragraph{
+  grid-area: texts;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.place__paragraph-text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  letter-spacing: 0%;
+  max-height: 261px;
+}
+
+.place__paragraph-text_saopaulo{
+  max-height: 315px;
+}
+
+.place__frame {
+  grid-area: button;
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  padding: 13px 20px;
+  border-radius: 4px;
+  justify-self: flex-start;
+}
+
+.place__frame-muramvya {
+  align-self: flex-start;
+  max-height: 48px;
+}
+
+.place__frame-saopaulo {
+  align-self: flex-start;
+  max-height: 48px;
+}
+
+.frame__paragraph {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  max-width: 315px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+}
+
