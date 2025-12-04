@@ -1,0 +1,30 @@
+.grid{
+  max-width: 1184px;
+  max-height: 442px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.grid-image{
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .grid{
+    max-width: 720px;
+    max-height: 1104px;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .grid{
+    max-width: 288px;
+    max-height: 1812px;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
