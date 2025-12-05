@@ -6,25 +6,24 @@
   grid-template-columns: 460px 1fr;
   grid-template-rows: 1fr 460px 1fr;
   grid-template-areas:
-  "title artist"
-  "image texts"
-  "button texts";
+    "title artist"
+    "image texts"
+    "button texts";
   column-gap: 40px;
   row-gap: 48px;
 }
 
-.place__box-berea{
+.place__box-berea {
   max-height: 680px;
 }
 
-.place__box-muramvya{
+.place__box-muramvya {
   max-height: 830px;
 }
 
-.place__box-saopaulo{
+.place__box-saopaulo {
   max-height: 753px;
 }
-
 
 .place__title {
   grid-area: title;
@@ -36,7 +35,7 @@
   line-height: 76px;
 }
 
-.place__title-criccieth{
+.place__title-criccieth {
   max-width: 440px;
 }
 
@@ -55,7 +54,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
-  letter-spacing: 12%;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #aaaaaa;
 }
@@ -77,7 +76,7 @@
   box-shadow: 10px 10px 25px 0px #00000080;
 }
 
-.place__paragraph{
+.place__paragraph {
   grid-area: texts;
   display: flex;
   flex-direction: column;
@@ -90,10 +89,9 @@
   font-size: 18px;
   line-height: 163%;
   letter-spacing: 0%;
-  max-height: 261px;
 }
 
-.place__paragraph-text_saopaulo{
+.place__paragraph-text_saopaulo {
   max-height: 315px;
 }
 
@@ -124,5 +122,42 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__box {
+    max-width: 720px;
+    grid-template-columns: 355px 1fr;
+    grid-template-rows: 92px 340px 1fr;
+    column-gap: 13px;
+  }
+    .place__box-berea {
+    grid-template-rows: 46px 340px 1fr;
+  }
+    .place__box-saopaulo {
+    grid-template-rows: 46px 340px 1fr;
+  }
+  .place__image{
+    max-width: 340px;
+  }
+  .place__title {
+    max-width: 340px;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 46px;
+  }
+  .place__website {
+    max-width: 352px;
+  }
+  .place__paragraph {
+    gap: 25px;
+    max-width: 352px;
+  }
+  .place__paragraph-text {
+    font-size: 16px;
+  }
+  .place__frame{
+    align-self: flex-start;
+  }
 }
 

@@ -1,13 +1,13 @@
 .content{
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin: 90px auto;
   gap: 92px;
 }
 
 @media screen and (max-width: 1024px) {
   .content{
-    gap: 90px;
+    gap: 0;
   }
 }
 

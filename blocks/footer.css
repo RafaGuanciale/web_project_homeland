@@ -2,14 +2,12 @@
   text-align: center;
   font-size: 14px;
   line-height: 16px;
-  padding: 90px 0 25px;
+  padding: 0 0 25px;
   margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
-  .footer__copyright{
-    padding: 88px 0 24px;
-  }
+
 }
 
 
