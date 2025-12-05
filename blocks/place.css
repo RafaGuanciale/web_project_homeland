@@ -83,7 +83,7 @@
   );
   box-shadow: 5px 5px 10px 0px #00000040;
 }
-.frame__paragraph {
+.place__frame-paragraph {
   text-decoration: none;
   text-align: center;
   color: #fff;
@@ -166,7 +166,7 @@
     grid-area: button;
     margin: 0 auto;
   }
-  .frame__paragraph {
+  .place__frame-paragraph {
     font-size: 14px;
   }
 }
