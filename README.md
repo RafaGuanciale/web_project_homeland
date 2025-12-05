@@ -2,7 +2,7 @@
 
 **Visualizar projeto:** https://rafaguanciale.github.io/web_project_homeland/
 
-O projeto De Pátria para Pátria foi desenvolvido como parte da Sprint 5 do curso de Web Development da TripleTen.
+O projeto De Pátria para Pátria foi desenvolvido como parte da Sprint 5 e terminado no Sprint 6 do curso de Web Development da TripleTen.
 Esta sprint marca uma evolução importante porque é onde a responsividade finalmente se torna o foco principal, e o desenvolvimento começa a se aproximar de projetos reais:
 
 - Layout completamente baseado em Figma (1280px, 768x e 320px)
@@ -11,6 +11,8 @@ Esta sprint marca uma evolução importante porque é onde a responsividade fina
 - Ajustes de tipografia, margens e proporções com precisão
 - Conceitos de responsividade (desktop para mobile)
 - Uso correto de fontes personalizadas, breakpoints e imagens fluidas
+- Implementação de Grid layout para melhorar ainda mais a responsividade
+- Gradientes e sombras em botões
 
 A Sprint 5 representou o momento de consolidar a capacidade de escrever layouts profissionais, respeitando os espaçamentos específicos do design original.
 
@@ -24,6 +26,7 @@ A Sprint 5 representou o momento de consolidar a capacidade de escrever layouts 
 - @media queries
 - Importação de fontes em uma nova camada de CSS utilizando @font-face
 - Design do Figma
+- Grid layout
 
 ## Principais Funcionalidades e Soluções Técnicas
 
@@ -45,6 +48,11 @@ A Sprint 5 representou o momento de consolidar a capacidade de escrever layouts 
 - page.css para estilos globais e fonts.css para tipografia
 - Organização que mantém o código limpo, escalável e fácil de manter
 
+4. Grid Layout
+
+- Blocos construídos utilizando grid
+- Torna a responsividade mais fácil para ser ajustada
+
 ## Aprendizados Pessoais
 
 Este projeto fortaleceu minha compreensão sobre como construir layouts fiéis a designs profissionais. Alguns aprendizados importantes:
@@ -55,6 +63,7 @@ Este projeto fortaleceu minha compreensão sobre como construir layouts fiéis a
 - Como um bloco deve ser independente em BEM, sem depender das classes de outro
 - Como manter CSS modular sem poluir o código global
 - Atenção aos detalhes do Figma (tipografia, line-height, espaçamentos)
+- Como grids facilitam para o design responsivo
 
 Essa sprint consolidou minha visão de estrutura não só fazer funcionar, mas fazer certo.
 
