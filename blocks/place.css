@@ -1,4 +1,4 @@
-.place__box {
+.place{
   display: grid;
   max-width: 984px;
   margin: auto;
