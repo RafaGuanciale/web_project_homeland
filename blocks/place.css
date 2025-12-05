@@ -108,7 +108,8 @@
     line-height: 46px;
   }
   .place__image {
-    width: 340px;
+    max-width: 340px;
+    width: 100%;
   }
   .place__website {
     max-width: 352px;
@@ -141,30 +142,29 @@
   .place__title {
     grid-area: title;
     min-width: 288px;
-    margin: 0 auto;
     font-size: 32px;
     line-height: 35px;
+    padding: 0 16px;
   }
   .place__website {
     grid-area: artist;
     min-width: 288px;
-    margin: 0 auto;
     align-self: auto;
+    padding: 0 16px;
   }
   .place__image {
     grid-area: image;
+    width: 100%;
     max-width: 320px;
-    margin: auto;
   }
   .place__paragraph {
     grid-area: text;
     max-width: 288px;
-    margin: auto;
+    padding: 0 16px;
   }
   .place__frame {
     grid-area: button;
-    align-self: flex-start;
-    margin: auto;
+    margin: 0 auto;
   }
   .frame__paragraph {
     font-size: 14px;
