@@ -13,6 +13,7 @@
 
 @media screen and (max-width: 544px) {
   .content{
-    gap: 64px;
+    margin: auto;
+    gap: 0;
   }
 }

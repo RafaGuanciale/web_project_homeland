@@ -28,5 +28,6 @@
     max-height: 1812px;
     grid-template-columns: 1fr;
     gap: 12px;
+    margin-bottom: 62px;
   }
 }
