@@ -95,7 +95,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .place__box {
+  .place {
     max-width: 720px;
     grid-template-columns: 355px 1fr;
     grid-template-rows: auto 340px auto;
@@ -128,7 +128,7 @@
 }
 
 @media screen and (max-width: 544px) {
-  .place__box {
+  .place {
     grid-template-columns: 100%;
     grid-template-rows: auto auto 320px auto auto;
     row-gap: 30px;
